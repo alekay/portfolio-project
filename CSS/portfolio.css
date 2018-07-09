@@ -31,7 +31,7 @@ h4 {
 h2 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1em;
   margin-left: 15px;
   margin-bottom: 5px;
   height: 10px;
@@ -45,7 +45,7 @@ h2 {
   font-size: .6em;
   font-family: 'Josefin Sans', sans-serif;
   position: relative;
-  padding: 5%;
+  margin: 5%;
 }
 
 /* line break styles (hr tags) */
@@ -148,7 +148,6 @@ h2 {
   align-items: center;
   max-height: 200px;
   margin-bottom: 20px;
-  
 }
 
 .column {
@@ -160,18 +159,6 @@ h2 {
   text-decoration: none;
   max-width: 50px;
   max-height: 50px;
-}
-
-#colOne {
-  width: 33%;
-}
-
-#colTwo {
-  width: 33%;
-}
-
-#colThree {
-  width: 33%;
 }
 
 /* link sytle */
@@ -232,11 +219,11 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 500px) {
   .copyright {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
+    margin-top: 40px;
   }
 }
