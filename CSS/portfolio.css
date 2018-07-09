@@ -1,0 +1,220 @@
+/* Linked CSS - main styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* h tag styles */
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 27px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: right;
+  position: relative;
+}
+
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-bottom: 5px;
+  text-align: right;
+  position: relative;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  height: 10px;
+  position: relative;
+}
+
+/* line break styles (hr tags) */
+
+.line {
+  width: 100%;
+  height: 2px;
+  border: 2px;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2)
+  
+}
+
+/* container styles */
+
+.box {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 100%;
+  height: 100%;
+  max-height: 100px;
+}
+
+.header {
+  margin-top: 12px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footerTitle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-responsive {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.img-responsive-main {
+  width: 100%;
+  height: 100%;
+}
+
+/* Name, Title */
+
+.title {
+  margin: auto;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* footer photos */
+
+#codepen {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+#github {
+  max-width: 100%;
+  max-height:100%;
+  position: relative;
+}
+
+#heroku {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+/* footer info columns */
+
+.columnLogo {
+  display: flex; 
+  flex-direction: column;
+  flex-basis: 33.3%; 
+  align-items: center;
+  max-height: 200px;
+  margin-bottom: 20px;
+  
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+#colOne {
+  width: 33%;
+}
+
+#colTwo {
+  width: 33%;
+}
+
+#colThree {
+  width: 33%;
+}
+
+/* link sytle */
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .6em;
+  color: #7d97ad;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #02b3e4;
+  transition: all 0.3s;
+}
+
+/* breakpoints */
+
+@media screen and (min-width: 700px) {
+  .header {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .content { 
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footer {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footerTitle {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
