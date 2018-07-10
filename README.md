@@ -1,1 +1,1 @@
-<h1>Given a PDF mockup of a website from a designer, translate it to a real website using HTML and CSS.</h1>
+<h1>This is a custom portfolio site designed with HTML and CSS to demonstrate ability to translate given a mockup prodvided and showcase recent materials.
