@@ -19,6 +19,23 @@ h1 {
   position: relative;
 }
 
+h1:hover {
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  height: 1em;
+  position: relative;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
 h4 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
@@ -28,24 +45,9 @@ h4 {
   position: relative;
 }
 
-h2 {
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  font-size: 1em;
-  margin-left: 15px;
-  margin-bottom: 5px;
-  height: 10px;
-  position: relative;
-}
-
-/* copyright */
-
-.copyright {
-  text-align: center;
-  font-size: .6em;
-  font-family: 'Josefin Sans', sans-serif;
-  position: relative;
-  margin: 5%;
+h4:hover {
+  opacity: 0.7;
+  transition: .8s ease;
 }
 
 /* line break styles (hr tags) */
@@ -118,26 +120,6 @@ h2 {
   margin-top: 10px;
 }
 
-/* footer photos */
-
-#codepen {
-  max-width: 100%;
-  max-height: auto;
-  position: relative;
-}
-
-#github {
-  max-width: 100%;
-  max-height: auto;
-  position: relative;
-}
-
-#heroku {
-  max-width: 100%;
-  max-height: auto;
-  position: relative;
-}
-
 /* footer info columns */
 
 .columnLogo {
@@ -149,39 +131,75 @@ h2 {
   margin-bottom: 20px;
 }
 
-.column {
-  display: flex;
-  flex-wrap: wrap;
+/* footer photos */
+
+#codepen {
+  max-width: 100%;
+  height: auto;
   position: relative;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#codepen:hover {
+  opacity: 0.5;
+  transition: all 1s ease;
+  transform: rotate(1080deg);
+}
+
+#github {
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+  position: relative;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#github:hover {
+  opacity: 0.5;
+  transition: all 1s ease;
+  transform: rotate(1080deg);
+}
+
+#heroku {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  border-radius: 25%;
+  margin-top: 20px;
+}
+
+#heroku:hover {
+  opacity: 0.5;
+  transition: all 1s ease;
+  transform: rotate(1080deg);
+}
+
+#udacityLogo:hover {
+  opacity: 0;
+  transition: all 0.9s ease;
+  transform: rotate(720deg);
+}
+
+/* copyright */
+
+.copyright {
+  text-align: center;
+  font-size: 0.6em;
   font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  max-width: 50px;
-  max-height: 50px;
+  position: relative;
+  margin: 5%;
 }
 
 /* link sytle */
 
-a {
+.description {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: .6em;
-  color: #02b3e4;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #fff;
-  transition: all 0.3s;
+  font-size: 0.6em;
+  position: absolute;
 }
 
 /* breakpoints */
@@ -223,6 +241,6 @@ a:hover {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 75px;
   }
 }
