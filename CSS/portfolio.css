@@ -1,5 +1,5 @@
 /* Linked css - main styles */
-body, html {
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -50,6 +50,78 @@ h4:hover {
   transition: 0.8s ease;
 }
 
+/* desktop navbar */
+
+.navbar {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.7em;
+  max-width: 768px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #02b3e4;
+}  
+
+.navbar-link {
+  padding-right: 8px; 
+}
+
+.navbar-items {
+  display:flex; 
+}
+
+.navbar-items-right {
+  margin-left: auto;
+}
+
+.navbar-link-toggle {
+  display: none;
+}
+
+/* mobile navbar */
+
+@media only screen and (max-width: 480px) {
+  .navbar-items,
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-items {
+    display:none;
+  }
+  .navbar-items-right {
+    margin-left: 0;
+  }
+  .navbar-toggleShow {
+    display: flex;
+  }
+  .navbar-link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+.navlink {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.6em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 /* line break styles (hr tags) */
 
 .line {
@@ -69,16 +141,14 @@ h4:hover {
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  float: right;
   width: 100%;
   height: 100%;
-  max-height: 100px;
 }
 
 .header {
   margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .content {
@@ -204,33 +274,33 @@ h4:hover {
 
 /* breakpoints */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .header {
-    max-width: 700px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .content { 
-    max-width: 700px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .footer {
-    max-width: 700px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .footerTitle {
-    max-width: 700px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -238,7 +308,7 @@ h4:hover {
 
 @media screen and (min-width: 500px) {
   .copyright {
-    max-width: 700px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 75px;
