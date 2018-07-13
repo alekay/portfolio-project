@@ -76,6 +76,7 @@ h4:hover {
 
 .navbar-link-toggle {
   display: none;
+  
 }
 
 /* mobile navbar */
@@ -87,9 +88,6 @@ h4:hover {
   }
   .navbar-items {
     display:none;
-  }
-  .navbar-items-right {
-    margin-left: 0;
   }
   .navbar-toggleShow {
     display: flex;
