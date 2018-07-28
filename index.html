@@ -32,6 +32,12 @@
                   <a href="#" class="navlink">Home</a>
                 </div>
                 <div class="navbar-link">
+                  <a href="#section" class="navlink">About</a>
+                </div>
+                <div class="navbar-link">
+                  <a href="#footer" class="navlink">Featured Work</a>
+                </div>
+                <div class="navbar-link">
                   <a href="https://github.com/alekay" target="_blank" class="navlink">Github</a>
                 </div>
                 <div class="navbar-link">
@@ -39,21 +45,31 @@
                 </div>
               </nav>
           </div>
-        </div>
-      <hr class="line">        
+        </div>       
     </header>            
 <!-- Main content -->
-    <section class="content box">
+    <article class="content box" id="section">
+      <div class="about box">
+        <h2>About</h2>
+          <p id="about">Alex Archer is a relatively new developer. After finishing Colt Steele's 
+              <a href="https://www.udemy.com/the-web-developer-bootcamp/" class="contentLink">Web Developer Bootcamp</a> 
+              he decided to futher his Front-End learning through Udacity's
+              <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" class="contentLink"> Front-End Nanodegree</a> 
+              program. 
+              As projects are completed and updated, they will be added to this portfolio.
+              In the meantime please check out Alex's Github, Codepen, and Yelpcamp app through his 'featured work' 
+              links.</p>
+      </div>        
         <a href="https://soundcloud.com/alekaymusic" target="_blank">
           <img src="img/alekay-fb-image-small.jpg" srcset="img/alekay-fb-image-small.jpg 1250w, img/alekay-fb-image-medium.jpg 2000w, img/alekay-fb-image.jpg 3000w" sizes="100vw" class="img-responsive-main" alt="Main Content Image">
         </a>
       <hr class="line">
-    </section>
+    </article>
     <div class="footerTitle box">
       <h2>Featured Work</h2>
-    </div>
+    
 <!-- Footer info -->
-      <footer class="footer box">
+      <section class="footer box" id="footer">
         <div class="columnLogo">
           <a href="https://codepen.io/Alekay/" target="_blank">
             <img src="img/codepen-small.png" srcset="img/codepen-small.png 200w, img/codepen-medium.png 250w, img/codepen.png 300w" sizes="100vw" id="codepen" alt="Codepen Logo">
@@ -72,8 +88,11 @@
           </a>
             <p class="description">Alex's Yelpcamp</p>
         </div>
-      </footer> 
+      </div>
+      </section> 
 <!--     Copyright -->
-    <p class="copyright">copyright alex archer 2018</p>
+    <footer class="bottom">
+    <p class="copyright">&copy; alex archer 2018</p>
+    </footer>
   </body>
 </html>
