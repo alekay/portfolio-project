@@ -17,6 +17,7 @@ h1 {
   margin-bottom: 5px;
   text-align: right;
   position: relative;
+  transition: 0.5s ease;
 }
 
 h1:hover {
@@ -43,6 +44,7 @@ h4 {
   margin-bottom: 5px;
   text-align: right;
   position: relative;
+  transition: 0.8s ease;
 }
 
 h4:hover {
@@ -76,7 +78,6 @@ h4:hover {
 
 .navbar-link-toggle {
   display: none;
-  
 }
 
 /* mobile navbar */
@@ -207,12 +208,13 @@ a:visited {
   position: relative;
   border-radius: 50%;
   margin-top: 20px;
+  transition: all 1s ease;
 }
 
 #codepen:hover {
   opacity: 0.5;
   transition: all 1s ease;
-  transform: rotate(1080deg);
+  transform: rotateY(360deg);
 }
 
 #github {
@@ -222,12 +224,13 @@ a:visited {
   position: relative;
   border-radius: 50%;
   margin-top: 20px;
+  transition: all 1s ease;
 }
 
 #github:hover {
   opacity: 0.5;
   transition: all 1s ease;
-  transform: rotate(1080deg);
+  transform: rotateY(360deg);
 }
 
 #heroku {
@@ -236,19 +239,26 @@ a:visited {
   position: relative;
   border-radius: 25%;
   margin-top: 20px;
+  transition: all 1s ease;
 }
 
 #heroku:hover {
   opacity: 0.5;
   transition: all 1s ease;
-  transform: rotate(1080deg);
+  transform: rotateY(360deg);
+}
+
+#udacityLogo {
+  transition: all 0.9s ease;
 }
 
 #udacityLogo:hover {
   opacity: 0;
   transition: all 0.9s ease;
-  transform: rotate(720deg);
+  transform: rotateY(360deg);
 }
+
+
 
 /* copyright */
 
