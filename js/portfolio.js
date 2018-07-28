@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function(){
     navs.forEach(nav => nav.classList.toggle('navbar-toggleShow'));
   }
 
-  document.querySelector('.navbar-link-toggle')
-    .addEventListener('click', classToggle);
+  document.querySelector('.navbar-link-toggle').addEventListener('click', classToggle);
 
 });

@@ -11,7 +11,7 @@
     <title>Portfolio</title>   
   </head>
   <body>
-<!--     Header -->
+<!-- Header -->
     <header class="header box">
       <img src="img/udacity-logo-png-transparent.png" class="img-responsive" id="udacityLogo" alt="Udacity Logo">
         <div class="title">
@@ -37,60 +37,82 @@
                 <div class="navbar-link">
                   <a href="#footer" class="navlink">Featured Work</a>
                 </div>
-                <div class="navbar-link">
+              </nav>
+              <nav class="navbar-items navbar-items-right">
+                <div class="navbar-right-link">
                   <a href="https://github.com/alekay" target="_blank" class="navlink">Github</a>
                 </div>
-                <div class="navbar-link">
+                <div class="navbar-right-link">
                   <a href="https://stackoverflow.com/users/9587192/alex" target="_blank" class="navlink">Stack Overflow</a> 
                 </div>
+                <div class="navbar-right-link">
+                    <a href="mailto:alekaymusic@gmail.com" class="navlink" target="_blank">Contact</a>
+                  </div>
               </nav>
           </div>
         </div>       
     </header>            
 <!-- Main content -->
-    <article class="content box" id="section">
-      <div class="about box">
+    <article class="content box">
+      <div class="contentSection box">
         <h2>About</h2>
-          <p id="about">Alex Archer is a relatively new developer. After finishing Colt Steele's 
-              <a href="https://www.udemy.com/the-web-developer-bootcamp/" class="contentLink">Web Developer Bootcamp</a> 
+          <p class="sideboard" id="about">Alex Archer is a relatively new developer. After finishing Colt Steele's 
+              <a href="https://www.udemy.com/the-web-developer-bootcamp/" class="contentLink" target="_blank">Web Developer Bootcamp</a> 
               he decided to futher his Front-End learning through Udacity's
-              <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" class="contentLink"> Front-End Nanodegree</a> 
+              <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" class="contentLink" target="_blank"> Front-End Nanodegree</a> 
               program. 
               As projects are completed and updated, they will be added to this portfolio.
-              In the meantime please check out Alex's Github, Codepen, and Yelpcamp app through his 'featured work' 
-              links.</p>
-      </div>        
-        <a href="https://soundcloud.com/alekaymusic" target="_blank">
-          <img src="img/alekay-fb-image-small.jpg" srcset="img/alekay-fb-image-small.jpg 1250w, img/alekay-fb-image-medium.jpg 2000w, img/alekay-fb-image.jpg 3000w" sizes="100vw" class="img-responsive-main" alt="Main Content Image">
-        </a>
-      <hr class="line">
-    </article>
-    <div class="footerTitle box">
-      <h2>Featured Work</h2>
-    
-<!-- Footer info -->
-      <section class="footer box" id="footer">
-        <div class="columnLogo">
-          <a href="https://codepen.io/Alekay/" target="_blank">
-            <img src="img/codepen-small.png" srcset="img/codepen-small.png 200w, img/codepen-medium.png 250w, img/codepen.png 300w" sizes="100vw" id="codepen" alt="Codepen Logo">
-          </a>
-          <p class="description">Alex's Codepen</p>
-        </div>
-        <div class="columnLogo">
-          <a href="https://github.com/Alekay" target="_blank">
-            <img src="img/github2-small.png" srcset="img/github2-small.png 500w, img/github2-medium.png 1000w, img/github2.png 2000w" sizes="100vw" id="github" alt="Github Logo">
-          </a>
-            <p class="description">Alex's Github</p>
-        </div>
-        <div class="columnLogo">
-          <a href="https://enigmatic-journey-92243.herokuapp.com/" target="_blank">
-            <img src="img/heroku-small.png" srcset="img/heroku-small.png 200w, img/heroku-medium.png 225w, img/heroku.png 250w" sizes="100vw" id="heroku" alt="Heroku Logo">
-          </a>
-            <p class="description">Alex's Yelpcamp</p>
-        </div>
+              In the meantime please check out Alex's Github, Codepen, and Yelpcamp app through his 'featured work'. 
+              </p>
       </div>
-      </section> 
-<!--     Copyright -->
+      <div class="contentSection box">
+        <h2>Featured Project</h2>
+          <p class="sideboard" id="featuredProject">Currently, Alex is working on a JavaScript 'Memory Game'. Please feel 
+            free to track his progress via <a href="https://github.com/alekay/memory-game" class="contentLink" target="_blank">here</a>.
+          </p>
+          <img src="img/memory-small.jpg" srcset="img/memory-small.jpg 300w, img/memory-medium. 500w, img/memory.jpg" sizes="756vw" class="img-responsive-main imgBoarder" alt="Memory Game Preview">
+      </div>
+    </article> 
+    <article class="content box">
+      <div class="contentSection box">
+        <h2>Featured Work</h2>    
+        <!-- featured info section -->
+        <div class="footer box" id="footer">
+            <div class="columnLogo">
+              <a href="https://codepen.io/Alekay/" target="_blank">
+                <img src="img/codepen-small.png" srcset="img/codepen-small.png 200w, img/codepen-medium.png 250w, img/codepen.png 300w" sizes="100vw" id="codepen" alt="Codepen Logo">
+              </a>
+              <p class="description">Alex's Codepen</p>
+            </div>
+            <div class="columnLogo">
+              <a href="https://github.com/Alekay" target="_blank">
+                <img src="img/github2-small.png" srcset="img/github2-small.png 500w, img/github2-medium.png 1000w, img/github2.png 2000w" sizes="100vw" id="github" alt="Github Logo">
+              </a>
+                <p class="description">Alex's Github</p>
+            </div>
+            <div class="columnLogo">
+              <a href="https://enigmatic-journey-92243.herokuapp.com/" target="_blank">
+                <img src="img/heroku-small.png" srcset="img/heroku-small.png 200w, img/heroku-medium.png 225w, img/heroku.png 250w" sizes="100vw" id="heroku" alt="Heroku Logo">
+              </a>
+                <p class="description">Alex's Yelpcamp</p>
+            </div>         
+        </div>       
+      </div> 
+    </article>
+    <article class="content box">     
+        <h2>Other Work</h2>
+          <p class="sideboard" id="music">In addition to web devlopment, Alex is also a seasoned music producer who has been
+            writing drum &amp; bass and other electronic genres for a handful of record labels since 2013. The image 
+            below is not only his brand (designed by <a href="https://www.facebook.com/MALOMEDIA.us/" class="contentLink" target="_blank">Malomedia</a> 
+            based on <a href="https://www.archerimaging.com/" class="contentLink" target="_blank">Archer Imaging</a>'s photography), but 
+            will also take you over to his <a href="https://soundcloud.com/alekaymusic" class="contentLink" target="_blank">Soundcloud</a> 
+            page where you can hear his production work.
+          </p>     
+        <a href="https://soundcloud.com/alekaymusic" target="_blank">
+          <img src="img/alekay-fb-image-small.jpg" srcset="img/alekay-fb-image-small.jpg 1250w, img/alekay-fb-image-medium.jpg 2000w, img/alekay-fb-image.jpg 3000w" sizes="100vw" class="img-responsive-main imgBoarder" alt="Main Content Image">
+        </a>    
+    </article>   
+<!--     Copyright and footer -->
     <footer class="bottom">
     <p class="copyright">&copy; alex archer 2018</p>
     </footer>
