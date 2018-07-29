@@ -152,9 +152,7 @@ h4:hover {
   }
   .navbar-toggleShow {
     display: flex;
-    opacity: 0;
-  transform: scale(0);
-  transition: .6s ease opacity,.6s ease transform;
+    transition: 10ms;
   }
   .navbar-link-toggle {
     align-self: flex-end;
