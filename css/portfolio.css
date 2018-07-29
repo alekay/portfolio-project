@@ -76,6 +76,8 @@ h4:hover {
   background-color: #071324c5;
 } 
 
+/* larger viewport for navbar font */
+
 @media screen and (max-width: 900px) {
   .navbar {
     font-size: 0.8em;
