@@ -16,9 +16,8 @@ body {
 h1 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 27px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  font-size: 1.7em;
+  margin: 10px 0 5px 0;
   text-align: right;
   position: relative;
   transition: 0.5s ease;
@@ -32,9 +31,8 @@ h1:hover {
 h2 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 0.8em;
-  margin-bottom: 10px;
-  padding-left: 3px;
+  font-size: 1.1em;
+  padding: 10px 0 0 3px;
   height: 1em;
   position: relative;
   text-decoration: underline;
@@ -44,7 +42,7 @@ h2 {
 h4 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 0.7em;
   margin-bottom: 14px;
   text-align: right;
   position: relative;
@@ -61,19 +59,20 @@ h4:hover {
 .navbar {
   display: flex;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.7em;
-  padding: 8px;
+  font-size: 1em;
+  
+  padding: 20px 0 20px 0;
   text-transform: uppercase;
   color: #0fb3e4;
   background-color: #071324c5;
 }  
 
 .navbar-link {
-  padding: 0 8px 0 8px;
+  padding: 3px 8px 0 8px;
 }
 
 .navbar-right-link {
-  padding: 0 8px 0 8px;
+  padding: 3px 8px 0 8px;
 }
 
 .navbar-items {
@@ -87,6 +86,7 @@ h4:hover {
 .navbar-link-toggle {
   display: none;
   color: #fafbfcb9;
+  padding: 0 10px 0 0;
 }
 
 .navbar-link-brand {
@@ -95,7 +95,7 @@ h4:hover {
 
 /* mobile navbar */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 760px) {
   .navbar-items,
   .navbar {
     flex-direction: column;
@@ -126,7 +126,7 @@ h4:hover {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 0.6em;
+  font-size: 0.9em;
   color: #02b3e4;
 }
 
@@ -185,6 +185,7 @@ a:visited {
 .featuredWork {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 4px;
   border: 3px solid #0000009d;
 }
 
@@ -217,7 +218,7 @@ a:visited {
 
 #about {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin: 10px;
   line-height: 20px;
   opacity: 0.7;
@@ -225,7 +226,7 @@ a:visited {
 
 #featuredProject {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin: 10px;
   line-height: 20px;
   opacity: 0.7;
@@ -233,7 +234,7 @@ a:visited {
 
 #music {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin: 10px;
   line-height: 20px;
   opacity: 0.7;
@@ -338,8 +339,6 @@ a:visited {
 
 /* breakpoints */
 
-
-
 @media screen and (min-width: 768px) {
   .content { 
     max-width: 768px;
@@ -355,6 +354,3 @@ a:visited {
     margin-right: auto;
   }
 }
-
-
-
