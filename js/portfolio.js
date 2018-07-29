@@ -1,3 +1,4 @@
+// wait for DOM content to load
 document.addEventListener("DOMContentLoaded", function(){
 
   function classToggle() {
