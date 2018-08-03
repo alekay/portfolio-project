@@ -1,12 +1,12 @@
 // wait for DOM content to load
 document.addEventListener("DOMContentLoaded", function(){
 
-  function classToggle() {
-    const navs = document.querySelectorAll('.navbar-items')
+function classToggle() {
+  const navs = document.querySelectorAll('.navbar-items')
     
-    navs.forEach(nav => nav.classList.toggle('navbar-toggleShow'));
-  }
+  navs.forEach(nav => nav.classList.toggle('navbar-toggleShow'));
+}
 
-  document.querySelector('.navbar-link-toggle').addEventListener('click', classToggle);
+document.querySelector('.navbar-link-toggle').addEventListener('click', classToggle);
 
 });
