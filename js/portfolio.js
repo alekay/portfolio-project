@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function(){
   
   // header changes when scroll and progress bar updates
   window.onscroll = () => {
-    progressBar();
     headerScroll();
+    progressBar();
   };
   
   // set class changes for header effect on scroll
