@@ -11,16 +11,21 @@
     <title>Portfolio</title>   
   </head>
   <body>
+      <div class="scrollBar">
+          <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div> 
+      </div>
 <!-- Header -->
-    <header class="header box">
+    <header class="header box" id="header box">
       <img src="img/udacity-logo-png-transparent.png" class="img-responsive" id="udacityLogo" alt="Udacity Logo">
         <div class="title">
-          <h1>Alex Archer</h1>
+          <h1 tabindex="-1">Alex Archer</h1>
           <h4>Front-End Web Developer</h4>
         </div>
         <div class="container">
           <!-- Nav Bar -->
-          <div class="navbar">
+          <div class="navbar" id="navbar">
             <div class="navbar-link navbar-link-brand">
               Portfolio
             </div>
@@ -55,7 +60,7 @@
 <!-- Main content -->
     <article class="content box">
       <div class="contentSection box">
-        <h2>About</h2>
+        <h2 class="about">About</h2>
           <p class="sideboard" id="about">Alex Archer is a new and learning web developer. After successfully completing Colt Steele's 
               <a href="https://www.udemy.com/the-web-developer-bootcamp/" class="contentLink" target="_blank">Web Developer Bootcamp</a> 
               he decided to futher his front-end learning through Udacity's
