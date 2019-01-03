@@ -1,5 +1,5 @@
 # Description
-**This is a custom portfolio site designed with HTML/CSS/JS to demonstrate ability to translate a given mockup provided, customize, and showcase recent projects through Codepen, Github, and Heroku.**
+**This is a custom portfolio site designed to demonstrate ability to translate a given mockup provided, as well as customize and showcase recent projects through Codepen, Github, and Heroku.**
 
 # View Project
 [Alex's Portfolio](https://alekay.github.io/portfolio-project/)
