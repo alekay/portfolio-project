@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener('DOMContentLoaded', function(){
 
   // navbar toggler
     function classToggle() {
@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function(){
   
     document.querySelector('.navbar-link-toggle').addEventListener('click', classToggle);
   
-  // header changes when scroll
+  // header changes when scroll and progress bar updates
   window.onscroll = () => {
-    scrollBar();
-    headerScrollFunc();
+    progressBar();
+    headerScroll();
   };
   
-  headerScrollFunc = () =>{
+  headerScroll = () =>{
     if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
       document.getElementById('header box').className = 'headerScroll';
     } else {
@@ -23,12 +23,12 @@ document.addEventListener("DOMContentLoaded", function(){
     }
   }
   
-  // Scroll Bar
-  scrollBar = () => {
+  // progress bar (0-100%)
+  progressBar = () => {
     let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     let scrolled = (winScroll / height) * 100;
-    document.getElementById("myBar").style.width = scrolled + "%";
+    document.getElementById('myBar').style.width = scrolled + '%';
   } 
     
 });
