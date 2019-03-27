@@ -429,7 +429,7 @@ margin-top: 14rem;
   }
 }
 
-/* footer info columns */
+/* desktop */
 @media screen and (min-width: 768px) {
   
   .columnLogo {
@@ -437,10 +437,6 @@ margin-top: 14rem;
     flex-direction: column;
     flex-basis: 33.3%; 
     align-items: center;
-  }
-
-  .description {
-    font-size: 2em;
   }
   /* footer photos */
 
@@ -502,6 +498,7 @@ margin-top: 14rem;
   }
 }
 
+/* mobile */
 @media screen and (max-width: 768px) {
   
   .columnLogo {
