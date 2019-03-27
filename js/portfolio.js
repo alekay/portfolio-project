@@ -23,13 +23,5 @@ document.addEventListener('DOMContentLoaded', function(){
       document.getElementById('header box').className = 'header box';
     }
   }
-  
-  // progress bar (0-100%)
-  progressBar = () => {
-    let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    let scrolled = (winScroll / height) * 100;
-    document.getElementById('myBar').style.width = scrolled + '%';
-  } 
     
 });
