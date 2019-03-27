@@ -45,7 +45,7 @@ h2 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   font-size: 1.6em;
-  padding: 150px 0 0 3px;
+  padding: 176px 0 0 3px;
   height: 1em;
   position: relative;
   text-decoration: underline;
@@ -162,6 +162,7 @@ h4:hover {
 
 .navbar-link-brand {
   color: #fafbfcb9;
+  
 }
 
 /* mobile navbar */
@@ -429,72 +430,144 @@ margin-top: 14rem;
 }
 
 /* footer info columns */
+@media screen and (min-width: 768px) {
+  
+  .columnLogo {
+    display: flex; 
+    flex-direction: column;
+    flex-basis: 33.3%; 
+    align-items: center;
+  }
 
-.columnLogo {
-  display: flex; 
-  flex-direction: column;
-  flex-basis: 33.3%; 
-  align-items: center;
+  .description {
+    font-size: 2em;
+  }
+  /* footer photos */
+
+  #codepen {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: all 1s ease;
+  }
+
+  #codepen:hover {
+    opacity: 0.5;
+    transition: all 1s ease;
+    transform: rotateY(360deg);
+  }
+
+  #github {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: all 1s ease;
+  }
+
+  #github:hover {
+    opacity: 0.5;
+    transition: all 1s ease;
+    transform: rotateY(360deg);
+  }
+
+  #heroku {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 25%;
+    margin-top: 20px;
+    transition: all 1s ease;
+  }
+
+  #heroku:hover {
+    opacity: 0.5;
+    transition: all 1s ease;
+    transform: rotateY(360deg);
+  }
+
+  #udacityLogo {
+    height: auto;
+    transition: all 0.9s ease;
+    padding: 5px 8px 0 8px;
+  }
+
+  #udacityLogo:hover {
+    opacity: 0;
+    transition: all 0.9s ease;
+    transform: rotateY(360deg);
+  }
 }
 
-/* footer photos */
+@media screen and (max-width: 768px) {
+  
+  .columnLogo {
+    text-align: center;
+    
+  }
+  .description {
+    font-size: 2em;
+  }
+  /* footer photos */
 
-#codepen {
-  max-width: 100%;
-  height: auto;
-  position: relative;
-  border-radius: 50%;
-  margin-top: 20px;
-  transition: all 1s ease;
+  #codepen {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: all 1s ease;
+  }
+
+  #codepen:hover {
+    opacity: 0.5;
+    transition: all 1s ease;
+  }
+
+  #github {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: all 1s ease;
+  }
+
+  #github:hover {
+    opacity: 0.5;
+    transition: all 1s ease;
+  }
+
+  #heroku {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    border-radius: 25%;
+    margin-top: 20px;
+    transition: all 1s ease;
+  }
+
+  #heroku:hover {
+    opacity: 0.5;
+    transition: all 1s ease;
+  }
+
+  #udacityLogo {
+    height: auto;
+    transition: all 0.9s ease;
+    padding: 5px 8px 0 8px;
+  }
+
+  #udacityLogo:hover {
+    opacity: 0;
+    transition: all 0.9s ease;
+    transform: rotateY(360deg);
+  }
 }
 
-#codepen:hover {
-  opacity: 0.5;
-  transition: all 1s ease;
-  transform: rotateY(360deg);
-}
-
-#github {
-  max-width: 100%;
-  height: auto;
-  position: relative;
-  border-radius: 50%;
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-#github:hover {
-  opacity: 0.5;
-  transition: all 1s ease;
-  transform: rotateY(360deg);
-}
-
-#heroku {
-  max-width: 100%;
-  height: auto;
-  position: relative;
-  border-radius: 25%;
-  margin-top: 20px;
-  transition: all 1s ease;
-}
-
-#heroku:hover {
-  opacity: 0.5;
-  transition: all 1s ease;
-  transform: rotateY(360deg);
-}
-
-#udacityLogo {
-  height: auto;
-  transition: all 0.9s ease;
-  padding: 5px 8px 0 8px;
-}
-
-#udacityLogo:hover {
-  opacity: 0;
-  transition: all 0.9s ease;
-  transform: rotateY(360deg);
-}
 
 /* copyright */
 
@@ -514,23 +587,22 @@ margin-top: 14rem;
 }
 
 /* link sytle */
-
-.description {
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.6rem;
-  position: relative;
-}
-
 @media screen and (min-width: 768px) {
   .description {
-    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.7rem;
+    position: relative;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 768px) {
   .description {
-    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.8rem;
   }
 }
