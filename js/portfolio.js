@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function() {
 
   // navbar toggler
     function classToggle() {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function(){
   };
   
   // set class changes for header effect on scroll
-  headerScroll = () =>{
+  headerScroll = () => {
     if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
       document.getElementById('header box').className = 'headerScroll';
     } else {
