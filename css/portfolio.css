@@ -554,19 +554,14 @@ margin-top: 14rem;
     transition: all 1s ease;
   }
 
-  #udacityLogo {
-    height: auto;
-    transition: all 0.9s ease;
-    padding: 5px 8px 0 8px;
-  }
-
-  #udacityLogo:hover {
-    opacity: 0;
-    transition: all 0.9s ease;
-    transform: rotateY(360deg);
-  }
 }
 
+/* small mobile dissplay - remove elements that clutter the header */
+
+@media screen and (max-width: 425px) {
+  
+  #udacityLogo {
+    display: none;
 
 /* copyright */
 
