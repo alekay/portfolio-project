@@ -17,7 +17,6 @@ body {
 }
 
 /* mobile default */
-
 h1 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
@@ -29,7 +28,6 @@ h1 {
 }
 
 /* Desktop font-size */
-
 @media screen and (min-width: 600px) {
   h1 {
     font-size: 2.1em;
@@ -99,7 +97,6 @@ h4:hover {
 }
 
 /* desktop navbar */
-
 .navbar {
   display: flex;
   width: 100%;
@@ -119,7 +116,6 @@ h4:hover {
 }
 
 /* 4k + screen */
-
 @media screen and (min-width: 2000px) {
   .navbar { 
     font-size: 2em;
@@ -135,7 +131,6 @@ h4:hover {
 }
 
 /* 4k+ */
-
 @media screen and (min-width: 2000px) {
   .navlink{
     padding: 8px 18px 0 8px;
@@ -163,7 +158,6 @@ h4:hover {
 }
 
 /* mobile navbar */
-
 @media only screen and (max-width: 760px) {
   .navbar-items,
   .navbar {
@@ -222,7 +216,6 @@ a:visited {
 }
 
 /* container styles */
-
 .about {
 margin-top: 14rem;
 }
@@ -259,7 +252,6 @@ margin-top: 14rem;
 }
 
 /* 4k + screen */
-
 @media screen and (min-width: 2000px) {
   h1 {
     font-size: 4.2em;
@@ -287,7 +279,6 @@ margin-top: 14rem;
 }
 
 /* Mobile default */
-
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -295,7 +286,6 @@ margin-top: 14rem;
 }
 
 /* Desktop size */
-
 @media screen and (min-width: 768px) {
   .content { 
     max-width: 1000px;
@@ -305,7 +295,6 @@ margin-top: 14rem;
 }
 
 /* 4k + */
-
 @media screen and (min-width: 2000px) {
   .content { 
     max-width: 1500px;
@@ -315,7 +304,6 @@ margin-top: 14rem;
 }
 
 /* Mobile default */
-
 .featuredWork {
   display: flex;
   flex-wrap: wrap;
@@ -334,7 +322,6 @@ margin-top: 14rem;
 }
 
 /* 4k+ */
-
 @media screen and (min-width: 2000px) {
   .featuredWork { 
     max-width: 1500px;
@@ -358,7 +345,6 @@ margin-top: 14rem;
 }
 
 /* 4k+ */
-
 @media screen and (min-width: 2000px) {
   .img-responsive {
     margin-top: 18px;
@@ -373,7 +359,6 @@ margin-top: 14rem;
 }
 
 /* Name, Title */
-
 .title {
   margin: auto;
   float: right;
@@ -387,7 +372,6 @@ margin-top: 14rem;
 }
 
 /* content field */
-
 #about {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.1em;
@@ -416,7 +400,6 @@ margin-top: 14rem;
 }
 
 /* 4k+ */
-
 @media screen and (min-width: 2000px) {
   #about, 
   #featuredProject, 
@@ -435,8 +418,8 @@ margin-top: 14rem;
     flex-basis: 50%;
     align-items: center;
   }
-  /* footer photos */
 
+  /* footer photos */
   #codepen {
     max-width: 100%;
     height: auto;
@@ -505,8 +488,8 @@ margin-top: 14rem;
   .description {
     font-size: 2em;
   }
-  /* footer photos */
 
+  /* footer photos */
   #codepen {
     max-width: 50%;
     height: auto;
@@ -552,15 +535,14 @@ margin-top: 14rem;
 }
 
 /* small mobile dissplay - remove elements that clutter the header */
-
 @media screen and (max-width: 425px) {
   
   #udacityLogo {
     display: none;
   }
 }
-/* copyright */
 
+/* copyright */
 .copyright {
   font-size: 0.7em;
   font-family: 'Josefin Sans', sans-serif;
@@ -569,7 +551,6 @@ margin-top: 14rem;
 }
 
 /* 4k+ */
-
 @media screen and (min-width: 2000px) {
   .copyright {
     font-size: 1.7em;
