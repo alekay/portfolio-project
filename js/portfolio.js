@@ -22,5 +22,4 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('header box').className = 'header box';
     }
   }
-    
 });
